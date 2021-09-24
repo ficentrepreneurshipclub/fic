@@ -91,7 +91,7 @@ h6 {
 }
 
 .h1-large {
-  font-size: 2rem !important;
+  font-size: 1.7rem !important;
   line-height: 3.5rem;
   letter-spacing: -0.7px;
   text-align: center;
@@ -612,7 +612,7 @@ input[type="checkbox"] {
 
 .header {
   padding-top: 7rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 0rem;
   /* background: url("../images/header-background.png") center center no-repeat; */
   background-size: cover;
   text-align: center;
@@ -623,7 +623,9 @@ input[type="checkbox"] {
 
 .header .text-container {
   margin-bottom: 4rem;
+  padding:0rem;
 }
+
 
 .header .h1-large {
   margin-bottom: 1.5rem;
@@ -758,7 +760,7 @@ input[type="checkbox"] {
 /*     Details 1     */
 /*********************/
 .basic-2 {
-  padding-top: 9.25rem;
+  padding-top: 2rem;
   padding-bottom: 5rem;
   /* background: url("../images/details-1-background.png") center center no-repeat; */
   background-size: cover;
@@ -1072,6 +1074,9 @@ input[type="checkbox"] {
   padding-top: 5.5rem;
   padding-bottom: 1.5rem;
   background-color: rgba(141, 52, 0, 0.87);
+  display:flex;
+  justify-content: center;
+  align-items: center;
  
 }
 
@@ -1517,7 +1522,7 @@ a:hover.back-to-top {
   .header {
     overflow-x: hidden;
     padding-top: 10.75rem;
-    padding-bottom: 13rem;
+    padding-bottom: 2rem;
   }
 
   .header .text-container {
@@ -1645,4 +1650,10 @@ a:hover.back-to-top {
 }
 .lienhe {
  color: rgb(255, 115, 0);
+}
+.linkfb {
+  width: 100%;
+  fisplay:flex;
+  text-align: center;
+  justify-content: center;
 }
