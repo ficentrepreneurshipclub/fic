@@ -534,7 +534,18 @@ h6 {
 section {
   overflow: hidden;
 }
-
+.hoatdongs {
+  width: 100%;
+  display: flex;
+  margin-top: 25rem;
+  justify-content: center;
+  align-items: center;
+}
+.hoatdongs > p {
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(233, 105, 1);
+}
 /* Sections Header
 --------------------------------*/
 .section-header .section-title {
